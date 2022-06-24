@@ -1,0 +1,150 @@
+.main0 h1 {
+    color: #b76666;
+    text-align: center;
+}
+
+.main1 h1 {
+    color: #b76666;
+    text-align: center;
+}
+
+.main1 h2 {
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;/* 去掉符号 */
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu a{
+    display: block;
+    width: 200px;
+    font-size: 16px;
+    font-weight: normal;/* 去掉加粗 */
+    color: white;
+    text-decoration: none;/* 去掉下划线 */
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu {
+    background-color: cadetblue;
+    width: 200px;
+    font-size: 105%;
+    margin: 20px;
+    padding: 10px;
+    vertical-align: top;
+    text-align: center;
+    position: fixed;
+}
+
+.blank {
+    background-color: #89b58b;
+    display: table-cell;
+    width: 180px;
+    font-size: 105%;
+    padding: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.main0 {
+    display: table-cell;
+    width: 450px;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+}/* main0类为未加入内容的子页面所使用的类 */
+
+.main1 {
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    line-height: 2em;
+}/* main1类为加入内容的子页面所使用的类 */
+
+.mov {
+    display: table-cell;
+    font-size: 105%;
+    padding: 15px;
+    vertical-align: top;
+    line-height: 2em;
+}
+
+.mov h1,h2 {
+    text-align: center;
+}
+
+.mov h1 {
+    color: #b76666;
+}
+
+/* 搜索框 */
+div.search {
+    padding: 30px 0;
+}
+ 
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+ 
+input, button {
+    border: none;
+    outline: none;
+}
+ 
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+    padding-right:46px;
+}
+ 
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.bar {
+    background: #7BA7AB;
+}
+
+.bar form {
+    height: 42px;
+}
+
+.bar input {
+    width: 250px;
+    border-radius: 42px;
+    border: 2px solid #324B4E;
+    background: #F9F0DA;
+    transition: .3s linear;
+    float: right;
+}
+
+.bar input:focus {
+    width: 300px;
+}
+
+.bar button {
+    background: none;
+    top: -2px;
+    right: 0;
+}
+
+.bar button:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+}
